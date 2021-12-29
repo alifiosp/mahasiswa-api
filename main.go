@@ -26,6 +26,8 @@ func main() {
 
 	r.GET("/mahasiswa", controllers.Tampil)
 	r.POST("/mahasiswa", controllers.MahasiswaTambah)
+	r.PUT("/mahasiswa/:nim", controllers.MahasiswaUbah)
+	r.DELETE("/mahasiswa/:nim", controllers.MahasiswaHapus)
 
 	r.Run()
 }

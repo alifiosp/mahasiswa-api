@@ -1,4 +1,4 @@
-module github.com/alifiosp/mahasiswa-api
+module github.com/alifiosp/mahasiswa-api/V2
 
 go 1.17
 
